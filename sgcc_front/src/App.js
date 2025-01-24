@@ -8,9 +8,16 @@ import PasswordRecovery from './pages/login/passwordRecovery';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/login' element={<Login />} />
+          <Route path='/SignUp' element={<SignUp />} />
+          <Route path='/MyPage' element={<MyPage />} />
+          <Route path='PasswordRecovery' element={<PasswordRecovery />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
