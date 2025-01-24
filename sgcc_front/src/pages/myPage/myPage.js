@@ -3,5 +3,10 @@ import './myPage.css';
 
 function Mypage() {
 
+    return (
+        <div className='MyPage'>
+
+        </div>
+    );
 }
 export default Mypage;
